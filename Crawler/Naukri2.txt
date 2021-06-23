@@ -1,0 +1,3 @@
+Python Full Stack Developer - MongoDB/Docker/KubernetesWrackle Technologies Pvt Ltd
+
+Who are we looking for: - Bachelors / Masters in Computer Science or equivalent with at least 3+ years of professional experience Experience in working with Machine Learning Pipelines  Experience in working with SQL & NonSql databases such as MySQL,Mongo DB Experience in Reactjs Experience in Celery,RabbitMQ / Kafka Experience in Unit Testing Tools

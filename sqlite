@@ -1,0 +1,21 @@
+create table characters(
+	id integer primary key,
+	name text,
+	house text,
+	gender varchar(1),
+	aff_id integer
+	);
+	
+
+insert into characters(name,house,gender,aff_id) values ('EddarHoused','Stark','m',1);
+insert into characters(name,house,gender,aff_id) values ('Cersei','lannister','f',2);
+
+create table affiliation(
+	id integer primary key,
+	house text not null
+	);
+insert into affiliation(house) values ('Stark');
+insert into affiliation(house) values ('lannister');
+
+select c.name,c.gender,a.house from characters c,affiliation a where a.id=c.id;
+

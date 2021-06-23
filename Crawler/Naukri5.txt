@@ -1,0 +1,3 @@
+Python Programming Language Application DeveloperAccenture Solutions Pvt Ltd
+
+Technical Experience :  1 Knowledge of ML Flow,Kube Flow and ability to use it for Experiment Tracking,Model Versioning and Model registry 2 Basic knowledge of AWS EC2 instance,ECS,EMR 3 Expert knowledge and experience of Kubernetes and Docker 4 Python programming skills are must 5 Develop continuous integration n deployment CI / CD pipelines for multiple algorithm development Team

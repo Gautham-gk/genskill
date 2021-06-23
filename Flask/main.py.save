@@ -1,0 +1,37 @@
+from flask import Flask
+import random
+app=Flask("Genskill")
+@app.route("/pi")
+
+
+def estimatepi(var=15000):
+	inside=0
+	for i in range(var):
+		x=random.random()
+		y=random.random()
+		if (x**2 +y**2) <=1:
+		
+	inside+=1
+	return  f"""<html>
+<head>
+  <title>
+    Estimate of pi
+  </title>
+</head>
+<body>
+  <h1>
+    Estimate Of pi
+  </h1>
+ After {var} iterations ,the value of Pi is {estimate}
+</html>
+"""
+
+@app.route("/")
+def Hello():
+	return "How Beutiful ppl!!"
+
+
+if __name__=="__main__":
+	app.run()
+
+
