@@ -1,3 +1,0 @@
-Python Programming Language Application DeveloperAccenture Solutions Pvt Ltd
-
-Educational Qualification :  Full time education is must Key Responsibilities :  a: Any exposure to financial industry is preferred b: Ability to communicate with senior stakeholders Must Have Skills :  PostgreSQL,Python Programming Language Work Experience :  4-6 years Technical Experience :  A Need experience one B -PyTestC -AWS lambdaD -AWS sqsE -Postgres
