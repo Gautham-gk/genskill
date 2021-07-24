@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+<h2>Add tasks to the To-Do-List
+</h2>
+{% endblock %}
+
+
+{% block content %}
+<label for="task">Add task</label>
+<input type="text" name="task"  id="task" placeholder="Add tasks here" required>
+<label for="date">Set the date</label>
+<input type="date" name="" id="date" value="">
+<label for="time">Set time</label>
+<input type="time" id="time" name="time" value="">
+<label for="button"> Add reminder</label>
+<button type="button" name="button">Add reminder</button>
+{% endblock %}
