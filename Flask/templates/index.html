@@ -1,9 +1,25 @@
 {% extends "base.html" %}
 {% block body %}
 
+
 <div>
-We can estimate value of Pi in 2 different ways
+We can estimate value of Pi in 2 different ways.Use the form to find the value of PI
 </div>
- <ol>
+<form method="post" action="/estimate">
+  <label >Choose the method for Estimation of PI</label>
+  <br>
+  <label for="Wallis">Wallis Product</label>
+  <input type="radio" id="Wallis" name="estimate" value="Wallis" required>
+  <br>
+  <label for="Monte Carlo">Monte Carlo</label>
+ <input type="radio" name="estimate" id="Monte Carlo" value="Monte carlo">
+ <br>
+ <label for="var">Choose number of iterations</label>
+ <input type="number" id="var" name="var">
+ <br>
+  <input type="submit" name="submit" value="Find value">
+</form>
+
+
 
  {% endblock %}
